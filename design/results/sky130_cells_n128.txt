@@ -1,0 +1,93 @@
+
+10. Printing statistics.
+
+=== nb64_pancreas ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+    20260        - wires
+    26735        - wire bits
+      188        - public wires
+     6659        - public wire bits
+       17        - ports
+       20        - port bits
+    25337 2.25E+005 cells
+        2        -   $scopeinfo
+        4   35.034   sky130_fd_sc_hd__a2111oi_0
+       10   87.584   sky130_fd_sc_hd__a211o_1
+       26  195.187   sky130_fd_sc_hd__a211oi_1
+        2   20.019   sky130_fd_sc_hd__a21bo_1
+       19  142.637   sky130_fd_sc_hd__a21boi_0
+       66  495.475   sky130_fd_sc_hd__a21o_1
+      530 2.65E+003   sky130_fd_sc_hd__a21oi_1
+       11  110.106   sky130_fd_sc_hd__a221o_1
+       28  245.235   sky130_fd_sc_hd__a221oi_1
+      126  1261.21   sky130_fd_sc_hd__a222oi_1
+       59  516.746   sky130_fd_sc_hd__a22o_1
+      122  915.878   sky130_fd_sc_hd__a22oi_1
+       15  131.376   sky130_fd_sc_hd__a2bb2oi_1
+        2   20.019   sky130_fd_sc_hd__a311o_1
+       10   87.584   sky130_fd_sc_hd__a311oi_1
+        4   35.034   sky130_fd_sc_hd__a31o_1
+       48  300.288   sky130_fd_sc_hd__a31oi_1
+        9   90.086   sky130_fd_sc_hd__a32o_1
+       13  113.859   sky130_fd_sc_hd__a32oi_1
+        2   17.517   sky130_fd_sc_hd__a41oi_1
+      100    625.6   sky130_fd_sc_hd__and2_0
+       78  487.968   sky130_fd_sc_hd__and3_1
+        2   17.517   sky130_fd_sc_hd__and3b_1
+        8   70.067   sky130_fd_sc_hd__and4_1
+      187  701.923   sky130_fd_sc_hd__clkinv_1
+     4840 1.21E+005   sky130_fd_sc_hd__dfrtp_1
+      422 1.11E+004   sky130_fd_sc_hd__dfstp_2
+       84  525.504   sky130_fd_sc_hd__lpflow_inputiso1p_1
+      158  988.448   sky130_fd_sc_hd__lpflow_isobufsrc_1
+      298 2.98E+003   sky130_fd_sc_hd__maj3_1
+       18  202.694   sky130_fd_sc_hd__mux2_1
+       16  160.154   sky130_fd_sc_hd__mux2i_1
+    14374 5.4E+004   sky130_fd_sc_hd__nand2_1
+      120   750.72   sky130_fd_sc_hd__nand2b_1
+      139  695.667   sky130_fd_sc_hd__nand3_1
+        5   37.536   sky130_fd_sc_hd__nand3b_1
+       70   437.92   sky130_fd_sc_hd__nand4_1
+        4   35.034   sky130_fd_sc_hd__nand4b_1
+      771 2.89E+003   sky130_fd_sc_hd__nor2_1
+       27  168.912   sky130_fd_sc_hd__nor2b_1
+      128  640.614   sky130_fd_sc_hd__nor3_1
+        6   45.043   sky130_fd_sc_hd__nor3b_1
+       43  269.008   sky130_fd_sc_hd__nor4_1
+        4   35.034   sky130_fd_sc_hd__nor4b_1
+        2   17.517   sky130_fd_sc_hd__o2111ai_1
+        4   40.038   sky130_fd_sc_hd__o211a_1
+       12   90.086   sky130_fd_sc_hd__o211ai_1
+       52  390.374   sky130_fd_sc_hd__o21a_1
+      757 3.79E+003   sky130_fd_sc_hd__o21ai_0
+        1    10.01   sky130_fd_sc_hd__o21ba_1
+       12   90.086   sky130_fd_sc_hd__o21bai_1
+        1   11.261   sky130_fd_sc_hd__o221a_1
+        5   43.792   sky130_fd_sc_hd__o221ai_1
+       20  175.168   sky130_fd_sc_hd__o22a_1
+       35   218.96   sky130_fd_sc_hd__o22ai_1
+        2   17.517   sky130_fd_sc_hd__o2bb2ai_1
+        1    10.01   sky130_fd_sc_hd__o311a_1
+        2   17.517   sky130_fd_sc_hd__o311ai_0
+        9   78.826   sky130_fd_sc_hd__o31a_1
+       27  202.694   sky130_fd_sc_hd__o31ai_1
+        1    10.01   sky130_fd_sc_hd__o32a_1
+       16  140.134   sky130_fd_sc_hd__o32ai_1
+        2   22.522   sky130_fd_sc_hd__o41a_1
+        2   17.517   sky130_fd_sc_hd__o41ai_1
+       34  212.704   sky130_fd_sc_hd__or3_1
+        3   26.275   sky130_fd_sc_hd__or3b_1
+        9   67.565   sky130_fd_sc_hd__or4_1
+      813 7.12E+003   sky130_fd_sc_hd__xnor2_1
+       64 1.44E+003   sky130_fd_sc_hd__xnor3_1
+      402 3.52E+003   sky130_fd_sc_hd__xor2_1
+       39  927.139   sky130_fd_sc_hd__xor3_1
+
+   Area for cell type $scopeinfo is unknown!
+
+   Chip area for module '\nb64_pancreas': 225113.401600
+     of which used for sequential elements: 132204.294400 (58.73%)
+

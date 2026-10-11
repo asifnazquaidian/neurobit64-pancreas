@@ -1,0 +1,8 @@
+read_verilog NeuroBit64-Pancreas/design/rtl/nb64_link.v NeuroBit64-Pancreas/design/rtl/nb64_telemetry.v NeuroBit64-Pancreas/design/rtl/nb64_pancreas.v
+chparam -set N 64 nb64_pancreas
+hierarchy -check -top nb64_pancreas
+synth -top nb64_pancreas -flatten
+dfflibmap -liberty tools/pdk/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty tools/pdk/sky130_fd_sc_hd__tt_025C_1v80.lib -D 125000
+opt_clean
+tee -o NeuroBit64-Pancreas/design/results/sky130_cells_n64.txt stat -liberty tools/pdk/sky130_fd_sc_hd__tt_025C_1v80.lib

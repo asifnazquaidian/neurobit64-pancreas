@@ -1,0 +1,39 @@
+NeuroBit64-Pancreas, software model
+
+A. Healthy islet at fixed glucose (8 s each; rates over the last 4 s)
+
+glucose in   beta Hz  alpha Hz  delta Hz  insulin %  glucose read  error
+     40          0      53.7         0         0           41      1
+     50          0      44.5         0         0           49     -1
+     60          0      33.7         0         0           59     -1
+     70          0      23.9         0         0           69     -1
+     80          0      12.1         0         0           81      1
+     90          0       0.5         0         0           90      0
+    100       28.7       0.5       3.5        26           90    -10
+    120       37.2       0.5       7.9        35          123      3
+    140       44.1       0.5      14.1        42          150     10
+    160       50.1       0.5      18.3        48          170     10
+    180       56.8       0.5      23.1        55          196     16
+    200       60.4       0.5      25.7        59          209      9
+    240       69.1       0.5      32.2        68          247      7
+    280       76.9       0.5      38.1        76          274     -6
+
+B. All conditions, 32.8 s of model time (two glucose sweeps where the glucose is swept)
+
+cond  condition                                  brain chip  mean |read - in|  max   flags raised (% of reports)
+0     healthy islet, glucose sweep               none                 8        54   low glucose 11, high glucose 51
+1     healthy islet, low glucose (50 mg/dL)      none               0.6         2   low glucose 100
+2     healthy islet, normal glucose (95 mg/dL)   none                 5         5   none
+3     healthy islet, high glucose (240 mg/dL)    none               6.9         8   high glucose 100
+4     beta-cell loss, glucose sweep              none                99       204   low glucose 38, beta cells do not answer 63
+5     weak beta-cell response, glucose sweep     none              61.5       131   low glucose 13, beta cells do not answer 20
+6     no alpha-cell response, glucose sweep      none              11.8        55   low glucose 2, high glucose 51, alpha cells do not answer 9
+7     high sympathetic tone, glucose sweep       none              51.2       127   low glucose 17, high glucose 24, beta cells do not answer 15, strong sympathetic drive 100
+0     healthy islet, glucose sweep               connected            8        54   low glucose 11, high glucose 51
+1     healthy islet, low glucose (50 mg/dL)      connected          0.6         2   low glucose 100
+2     healthy islet, normal glucose (95 mg/dL)   connected            5         5   none
+3     healthy islet, high glucose (240 mg/dL)    connected          6.9         8   high glucose 100
+4     beta-cell loss, glucose sweep              connected           99       204   low glucose 38, beta cells do not answer 63
+5     weak beta-cell response, glucose sweep     connected         61.5       131   low glucose 13, beta cells do not answer 20
+6     no alpha-cell response, glucose sweep      connected         11.8        55   low glucose 2, high glucose 51, alpha cells do not answer 9
+7     high sympathetic tone, glucose sweep       connected         67.5       147   low glucose 54, high glucose 14, beta cells do not answer 23, strong sympathetic drive 100

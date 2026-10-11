@@ -1,0 +1,386 @@
+{
+  "response": [
+    {
+      "glucose_in": 40,
+      "beta_hz": 0,
+      "alpha_hz": 53.7,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 41
+    },
+    {
+      "glucose_in": 50,
+      "beta_hz": 0,
+      "alpha_hz": 44.5,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 49
+    },
+    {
+      "glucose_in": 60,
+      "beta_hz": 0,
+      "alpha_hz": 33.7,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 59
+    },
+    {
+      "glucose_in": 70,
+      "beta_hz": 0,
+      "alpha_hz": 23.9,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 69
+    },
+    {
+      "glucose_in": 80,
+      "beta_hz": 0,
+      "alpha_hz": 12.1,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 81
+    },
+    {
+      "glucose_in": 90,
+      "beta_hz": 0,
+      "alpha_hz": 0.5,
+      "delta_hz": 0,
+      "insulin_percent": 0,
+      "glucose_read": 90
+    },
+    {
+      "glucose_in": 100,
+      "beta_hz": 28.7,
+      "alpha_hz": 0.5,
+      "delta_hz": 3.5,
+      "insulin_percent": 26,
+      "glucose_read": 90
+    },
+    {
+      "glucose_in": 120,
+      "beta_hz": 37.2,
+      "alpha_hz": 0.5,
+      "delta_hz": 7.9,
+      "insulin_percent": 35,
+      "glucose_read": 123
+    },
+    {
+      "glucose_in": 140,
+      "beta_hz": 44.1,
+      "alpha_hz": 0.5,
+      "delta_hz": 14.1,
+      "insulin_percent": 42,
+      "glucose_read": 150
+    },
+    {
+      "glucose_in": 160,
+      "beta_hz": 50.1,
+      "alpha_hz": 0.5,
+      "delta_hz": 18.3,
+      "insulin_percent": 48,
+      "glucose_read": 170
+    },
+    {
+      "glucose_in": 180,
+      "beta_hz": 56.8,
+      "alpha_hz": 0.5,
+      "delta_hz": 23.1,
+      "insulin_percent": 55,
+      "glucose_read": 196
+    },
+    {
+      "glucose_in": 200,
+      "beta_hz": 60.4,
+      "alpha_hz": 0.5,
+      "delta_hz": 25.7,
+      "insulin_percent": 59,
+      "glucose_read": 209
+    },
+    {
+      "glucose_in": 240,
+      "beta_hz": 69.1,
+      "alpha_hz": 0.5,
+      "delta_hz": 32.2,
+      "insulin_percent": 68,
+      "glucose_read": 247
+    },
+    {
+      "glucose_in": 280,
+      "beta_hz": 76.9,
+      "alpha_hz": 0.5,
+      "delta_hz": 38.1,
+      "insulin_percent": 76,
+      "glucose_read": 274
+    }
+  ],
+  "conditions": [
+    {
+      "condition": 0,
+      "name": "healthy islet, glucose sweep",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 8,
+      "max_abs_error_mg_dl": 54,
+      "spikes_beta_alpha_delta": [
+        857112,
+        62040,
+        55946
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 11,
+        "high glucose": 51
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 1,
+      "name": "healthy islet, low glucose (50 mg/dL)",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 0.6,
+      "max_abs_error_mg_dl": 2,
+      "spikes_beta_alpha_delta": [
+        0,
+        456565,
+        0
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 100
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 2,
+      "name": "healthy islet, normal glucose (95 mg/dL)",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 5,
+      "max_abs_error_mg_dl": 5,
+      "spikes_beta_alpha_delta": [
+        449,
+        5404,
+        0
+      ],
+      "flags_percent_of_reports": {},
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 3,
+      "name": "healthy islet, high glucose (240 mg/dL)",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 6.9,
+      "max_abs_error_mg_dl": 8,
+      "spikes_beta_alpha_delta": [
+        1346408,
+        5404,
+        98216
+      ],
+      "flags_percent_of_reports": {
+        "high glucose": 100
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 4,
+      "name": "beta-cell loss, glucose sweep",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 99,
+      "max_abs_error_mg_dl": 204,
+      "spikes_beta_alpha_delta": [
+        438640,
+        62040,
+        59853
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 38,
+        "beta cells do not answer": 63
+      },
+      "abnormal_percent": 63
+    },
+    {
+      "condition": 5,
+      "name": "weak beta-cell response, glucose sweep",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 61.5,
+      "max_abs_error_mg_dl": 131,
+      "spikes_beta_alpha_delta": [
+        420496,
+        62040,
+        18568
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 13,
+        "beta cells do not answer": 20
+      },
+      "abnormal_percent": 20
+    },
+    {
+      "condition": 6,
+      "name": "no alpha-cell response, glucose sweep",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 11.8,
+      "max_abs_error_mg_dl": 55,
+      "spikes_beta_alpha_delta": [
+        855344,
+        5404,
+        55940
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 2,
+        "high glucose": 51,
+        "alpha cells do not answer": 9
+      },
+      "abnormal_percent": 9
+    },
+    {
+      "condition": 7,
+      "name": "high sympathetic tone, glucose sweep",
+      "brain_chip": "none",
+      "mean_abs_error_mg_dl": 51.2,
+      "max_abs_error_mg_dl": 127,
+      "spikes_beta_alpha_delta": [
+        508749,
+        251601,
+        29468
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 17,
+        "high glucose": 24,
+        "beta cells do not answer": 15,
+        "strong sympathetic drive": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 0,
+      "name": "healthy islet, glucose sweep",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 8,
+      "max_abs_error_mg_dl": 54,
+      "spikes_beta_alpha_delta": [
+        857112,
+        62040,
+        55946
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 11,
+        "high glucose": 51
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 1,
+      "name": "healthy islet, low glucose (50 mg/dL)",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 0.6,
+      "max_abs_error_mg_dl": 2,
+      "spikes_beta_alpha_delta": [
+        0,
+        456565,
+        0
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 100
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 2,
+      "name": "healthy islet, normal glucose (95 mg/dL)",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 5,
+      "max_abs_error_mg_dl": 5,
+      "spikes_beta_alpha_delta": [
+        449,
+        5404,
+        0
+      ],
+      "flags_percent_of_reports": {},
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 3,
+      "name": "healthy islet, high glucose (240 mg/dL)",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 6.9,
+      "max_abs_error_mg_dl": 8,
+      "spikes_beta_alpha_delta": [
+        1346427,
+        5404,
+        98207
+      ],
+      "flags_percent_of_reports": {
+        "high glucose": 100
+      },
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 4,
+      "name": "beta-cell loss, glucose sweep",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 99,
+      "max_abs_error_mg_dl": 204,
+      "spikes_beta_alpha_delta": [
+        438640,
+        62040,
+        59853
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 38,
+        "beta cells do not answer": 63
+      },
+      "abnormal_percent": 63
+    },
+    {
+      "condition": 5,
+      "name": "weak beta-cell response, glucose sweep",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 61.5,
+      "max_abs_error_mg_dl": 131,
+      "spikes_beta_alpha_delta": [
+        420496,
+        62040,
+        18568
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 13,
+        "beta cells do not answer": 20
+      },
+      "abnormal_percent": 20
+    },
+    {
+      "condition": 6,
+      "name": "no alpha-cell response, glucose sweep",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 11.8,
+      "max_abs_error_mg_dl": 55,
+      "spikes_beta_alpha_delta": [
+        855344,
+        5404,
+        55940
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 2,
+        "high glucose": 51,
+        "alpha cells do not answer": 9
+      },
+      "abnormal_percent": 9
+    },
+    {
+      "condition": 7,
+      "name": "high sympathetic tone, glucose sweep",
+      "brain_chip": "connected",
+      "mean_abs_error_mg_dl": 67.5,
+      "max_abs_error_mg_dl": 147,
+      "spikes_beta_alpha_delta": [
+        414882,
+        314184,
+        22709
+      ],
+      "flags_percent_of_reports": {
+        "low glucose": 54,
+        "high glucose": 14,
+        "beta cells do not answer": 23,
+        "strong sympathetic drive": 100
+      },
+      "abnormal_percent": 100
+    }
+  ]
+}
